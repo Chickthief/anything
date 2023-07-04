@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Speed Friending</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Import font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+<body>
+
+<ul class="headbar">
+    <li class="headlist"><a href="../index.html" class="headbarlink">Home</a></li>
+    <li class="headlist"><a href="../index.html#about" class="headbarlink">About Me</a></li>
+    <li class="headlist"><a href="../index.html#projects" class="headbarlink">Projects</a></li>
+    <li class="headlist"><a href="../index.html#contacts" class="headbarlink">Contact</a></li>
+</ul>
+
+<div class="content">
+    <h1 class="centered"><br>SPEED FRIENDING</h1>
+    <div style="display: flex; align-items: start">
+        <div style="flex: 1; padding: 0% 5% 0%">
+            <h3>  The Problem </h3>
+            <p>Making the transition into a large, pre-existing community can be challenging, with hundreds of new faces to meet,
+                remember, and engage with. This was the experience for many at Waterloo’s Chinese Christian Fellowship. After
+                noticing that the environment was tailored heavily towards extroverts and people who preferred to initiate
+                conversations, I was driven by a personal desire to aid myself and other more introverted people to find a
+                solution.</p>
+            
+            <h3> The Concept </h3>
+            <p>I settled on a speed friending program, the essence of which is to break down the vast community into smaller,
+                more manageable groups where students could meet and interact. The idea was to create self-directed groups of
+                four people each and change the groups every two weeks, with the goal of each group to meet up at least once
+                over this two-week period. During these meetups, students would have an opportunity to introduce themselves,
+                share their interests, and potentially identify common ground. This format was aimed at promoting inclusivity,
+                removing the pressure of approaching others in a large crowd, and most importantly, creating a safe space where
+                everyone could feel comfortable expressing themselves. A goal I also had was to increase the possibility of
+                lasting friendships to be created due to the great amount of exposure people had to new individuals.</p>
+
+            <h3>Automation</h3>
+            <p>However, the task of organizing these events was far from straightforward. It required careful management and
+                attention to detail to ensure that everyone had a chance to meet a diverse range of individuals. To manage this,
+                I initially employed spreadsheets to manually arrange the speed friending groups. This involved juggling various
+                factors such as the age and gender of participants, and whether or not they would be willing to step up to lead
+                a group.</p>
+            
+            <p>While this method worked, it was highly time-consuming and labor-intensive. Seeing the need for a more efficient
+                process, I decided to automate the group formation task. After self-learning Python, I developed a script that
+                could automatically generate the groups for each event. This involved creating an algorithm that considered the
+                same factors I had previously been manually juggling.</p>
+            
+            <p>The algorithm was able to sort groups in a way that assigned a leader to each group while minimizing minority
+                genders in each group, favoring a combination of same-gender groups and equal-gender groups over an equal gender
+                distribution across all the groups. As unity within the fellowship as a whole was a goal of the ministry, I
+                programmed the algorithm to maximize the number of people in unique years in their university career in each
+                group, improving inter-year friendships. In addition to optimizing various factors, this step significantly
+                reduced the time and effort required in planning and allowed for a more accurate grouping based on multiple
+                factors.</p>
+            
+            <h3>Legacy</h3>
+            <p>The results of this program were overwhelmingly positive. The feedback received from the participants pointed
+                towards the program's effectiveness in helping new students integrate into the larger community. Introverts found
+                it especially helpful in generating friendships and meeting people in a low-pressure environment that did not
+                require much initiation. Moreover, the initiative was praised for its innovative and entrepreneurial approach to
+                fostering connections within the community. It proved so successful that it has been institutionalized within the
+                fellowship, led by other students and continuing to be offered to the larger community on semesters that I am
+                not on campus.</p>
+            
+            <p> On the right is a collage of some pictures taken by other speed friending groups during their hangouts.</p>
+            
+            </div> 
+            <div style="flex:1">
+                <img src="friendingimages/friendingcollage.jpg" width="90%" class="light-padding">
+            </div>
+        </div>
+</div>
+</body>
